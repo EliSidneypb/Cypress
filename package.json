@@ -1,0 +1,14 @@
+{
+  "name": "projeto-login-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "http-server -p 8080",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.0.0",
+    "http-server": "^14.1.1"
+  }
+}
