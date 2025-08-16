@@ -8,11 +8,11 @@ Este projeto inclui um front-end simples de login e testes E2E automatizados com
 
 ### 🛠️ Tecnologias
 
-✅ HTML5\
-✅ CSS3\
-✅ JavaScript (Vanilla JS)\
-✅ Cypress\
-💻 Visual Studio Code\
+✅ HTML5
+✅ CSS3
+✅ JavaScript (Vanilla JS)
+✅ Cypress
+💻 Visual Studio Code
 🛠️ Git e GitHub
 
 ### 📁 Estrutura do Projeto
@@ -36,17 +36,17 @@ projeto-login-cypress/
 
 ### Pré-requisitos
 
-- Node.js (recomendado 18+)
-- npm (vem com o Node.js)
-- Navegador (Chrome, Edge ou Firefox)
+* Node.js (recomendado 18+)
+* npm (vem com o Node.js)
+* Navegador (Chrome, Edge ou Firefox)
 
 ### Passo a Passo de Execução
 
 #### 1. Clonar ou baixar o repositório
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
-cd projeto-login-cypress
+git clone https://github.com/EliSidneypb/Cypress.git
+cd Cypress
 ```
 
 #### 2. Instalar dependências
@@ -61,7 +61,7 @@ npm install
 npm run dev
 ```
 
-- Acesse `http://localhost:8080` para visualizar a tela de login.
+* Acesse `http://localhost:8080` para visualizar a tela de login.
 
 #### 4. Abrir Cypress
 
@@ -69,9 +69,9 @@ npm run dev
 npm run cy:open
 ```
 
-- Escolha **E2E Testing**.
-- Selecione o navegador desejado.
-- Clique no teste `login.cy.js` para executar.
+* Escolha **E2E Testing**.
+* Selecione o navegador desejado.
+* Clique no teste `login.cy.js` para executar.
 
 #### 5. Rodar testes em modo headless
 
@@ -79,7 +79,7 @@ npm run cy:open
 npm run cy:run
 ```
 
-- Executa todos os testes E2E sem abrir a interface do Cypress.
+* Executa todos os testes E2E sem abrir a interface do Cypress.
 
 #### 6. Executar servidor e Cypress simultaneamente (opcional)
 
@@ -87,7 +87,7 @@ npm run cy:run
 npm run start:test
 ```
 
-- Necessita da dependência `concurrently` instalada.
+* Necessita da dependência `concurrently` instalada.
 
 ### Scripts no `package.json`
 
@@ -100,10 +100,10 @@ npm run start:test
 }
 ```
 
-- `dev` → Sobe o servidor local
-- `cy:open` → Abre o Cypress
-- `cy:run` → Roda testes em modo headless
-- `start:test` → Executa servidor + Cypress juntos
+* `dev` → Sobe o servidor local
+* `cy:open` → Abre o Cypress
+* `cy:run` → Roda testes em modo headless
+* `start:test` → Executa servidor + Cypress juntos
 
 ---
 
@@ -113,13 +113,13 @@ npm run start:test
 2. Clone o repositório:
 
 ```bash
-git clone <URL_DO_SEU_REPOSITORIO>
+git clone https://github.com/EliSidneypb/Cypress.git
 ```
 
 3. Entre na pasta do projeto:
 
 ```bash
-cd projeto-login-cypress
+cd Cypress
 ```
 
 4. Instale as dependências:
@@ -147,7 +147,7 @@ Sinta-se à vontade para explorar, testar e contribuir com melhorias no projeto.
 
 ## 📫 Contato
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/eli-santos-61a71031a/)
+* 💼 [LinkedIn](https://www.linkedin.com/in/eli-santos-61a71031a/)
 
 ---
 
